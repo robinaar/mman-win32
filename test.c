@@ -1,6 +1,7 @@
 
+#include <stdio.h>
+#include <stdlib.h>
 #include "mman.h"
-
 #include <errno.h>
 #include <fcntl.h>
 #include <sys/stat.h>
