@@ -1,10 +1,9 @@
-make.exe --dry-run --keep-going --print-directory
+make.exe --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/c/wsl/Projecten/C/mman-win32'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/c/wsl/Projecten/C/mman-win32'
  
 Makefile:4: config.mak: No such file or directory
 make: *** No rule to make target 'config.mak'.
 make: Failed to remake makefile 'config.mak'.
- 
-make: Nothing to be done for 'all'.
-make: Leaving directory '/c/wsl/Projecten/C/mman-win32'
  

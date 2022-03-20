@@ -5,13 +5,11 @@ make: *** No rule to make target 'config.mak'.  Stop.
 # GNU Make 4.3
 # Built for x86_64-pc-msys
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
- 
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Fri Mar 18 10:03:33 2022
+# Make data base, printed on Sun Mar 20 06:00:22 2022
 
 # Variables
 
@@ -24,7 +22,7 @@ USERPROFILE = C:\Users\robin
 # environment
 LOCALAPPDATA = C:\Users\robin\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-8e785ee7-eaf2-422b-ad5a-798c05ff39d9-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ad41a5e3-e166-4c99-9b62-c1ad9197bcc8-sock
 # environment
 VSCODE_CWD = C:\wsl\Projecten\C\mman-win32
 # environment
@@ -42,7 +40,7 @@ GOPATH = C:\Users\robin\go
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4900_IOAQYWHMTOFMVPUU
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_248_VNETGANVXWNBALPI
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -72,7 +70,7 @@ CURDIR := /c/wsl/Projecten/C/mman-win32
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -96,7 +94,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 4900
+VSCODE_PID = 248
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -126,7 +124,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Windows/System32/OpenSSH:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/ProgramData/chocolatey/bin:/c/ProgramData/chocolatey/lib/winlibs/tools/mingw64/bin:/c/Go/bin:/c/Program Files/Git/cmd:/mingw64/bin:/usr/bin:/c/Program Files/dotnet:/c/Users/robin/AppData/Local/Programs/Python/Python310/Scripts:/c/Users/robin/AppData/Local/Programs/Python/Python310:/c/Program Files/CMake/bin:/c/Users/robin/AppData/Local/Microsoft/WindowsApps:/c/Users/robin/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/robin/go/bin:/c/Users/robin/AppData/Local/GitHubDesktop/bin
+PATH = /c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Windows/System32/OpenSSH:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/ProgramData/chocolatey/bin:/c/ProgramData/chocolatey/lib/winlibs/tools/mingw64/bin:/c/Go/bin:/c/Program Files/Git/cmd:/mingw64/bin:/usr/bin:/c/Program Files/dotnet:/c/Users/robin/AppData/Local/Programs/Python/Python310/Scripts:/c/Users/robin/AppData/Local/Programs/Python/Python310:/c/Users/robin/AppData/Local/Microsoft/WindowsApps:/c/Users/robin/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/robin/go/bin:/c/Users/robin/AppData/Local/GitHubDesktop/bin
 # environment
 COMPUTERNAME = BOMINAAR
 # default
@@ -161,6 +159,8 @@ USERDOMAIN = BOMINAAR
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
+# environment
+COMPILERPATH = C:\msys64\mingw64\bin\gcc.exe
 # makefile
 .DEFAULT_GOAL := all
 # default
@@ -208,7 +208,7 @@ PROCESSOR_REVISION = 3c03
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
 # variable set hash-table stats:
-# Load=96/1024=9%, Rehash=0, Collisions=12/125=10%
+# Load=97/1024=9%, Rehash=0, Collisions=12/126=10%
 
 # Pattern-specific Variable Values
 
@@ -216,9 +216,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
 
 # Directories
 
-# . (device 3625487459, inode 3659174697907356): 10 files, no impossibilities.
+# . (device 3625487459, inode 3659174697907356): 11 files, no impossibilities.
 
-# 10 files, no impossibilities in 1 directories.
+# 11 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -351,12 +351,12 @@ test.exe: test.c mman.c mman.h
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 25 / storage = 206 B / avg = 8 B
-# current buf: size = 8162 B / used = 206 B / count = 25 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 26 / storage = 207 B / avg = 7 B
+# current buf: size = 8162 B / used = 207 B / count = 26 / avg = 7 B
 
-# strcache performance: lookups = 54 / hit rate = 53%
+# strcache performance: lookups = 55 / hit rate = 52%
 # hash-table stats:
-# Load=25/8192=0%, Rehash=0, Collisions=0/54=0%
-# Finished Make data base on Fri Mar 18 10:03:33 2022
+# Load=26/8192=0%, Rehash=0, Collisions=0/55=0%
+# Finished Make data base on Sun Mar 20 06:00:22 2022
 
  
